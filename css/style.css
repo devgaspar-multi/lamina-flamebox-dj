@@ -1,3 +1,17 @@
+@font-face {
+  font-display: swap;
+  font-family: "elza";
+  font-weight: 400;
+  src: url("../arquivos/fonts/Elza-Regular.ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "elza";
+  font-weight: 700;
+  src: url("../arquivos/fonts/Elza-Bold.ttf");
+}
+
 .flamebox-container {
   margin: 0px 30px;
   box-shadow: none;
@@ -43,7 +57,7 @@
   text-decoration-skip-ink: none;
   text-align: center;
   color: #f2cb13;
-  font-family: Elza, sans-serif;
+  font-family: "elza", sans-serif;
 }
 
 .flamebox-features-wesley {
@@ -62,7 +76,7 @@
 .flamebox-features-wesley-title {
   color: #f2cb13;
   margin-top: 0px;
-  font-family: Elza, sans-serif;
+  font-family: "elza", sans-serif;
   font-size: 46px;
   font-weight: 700;
   line-height: 56px;
@@ -79,7 +93,7 @@
   justify-content: center;
   margin: 0 auto;
   color: #fff;
-  font-family: Elza, sans-serif;
+  font-family: "elza", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
@@ -163,7 +177,7 @@
 }
 
 .flamebox-footer-fw p {
-  font-family: Elza, sans-serif;
+  font-family: "elza", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 56px;
@@ -175,7 +189,7 @@
 }
 
 .flamebox-footer-sw p {
-  font-family: Elza, sans-serif;
+  font-family: "elza", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 56px;
