@@ -200,6 +200,13 @@
   margin: 0px 0px 0px 10px;
 }
 
+@media (min-width: 1080px) {
+  .flamebox-first-video-container iframe,
+  .flamebox-scnd-video-container iframe {
+    margin: 0px 20px;
+  }
+}
+
 @media (max-width: 1080px) {
   .flamebox-features-container {
     flex-wrap: wrap;
@@ -213,7 +220,7 @@
   .flamebox-first-video-container iframe,
   .flamebox-scnd-video-container iframe {
     margin: 0 30px;
-    height: 450px;
+    height: 580px;
   }
 }
 
